@@ -9,7 +9,11 @@ include_once "IChinaSocket.php";
 
 class ChinaSocket implements IChinaSocket
 {
-	
+	public function __construct()
+	{
+		echo "I hava a socket with two flat head\n";
+	}
+
 	public function powerWithFlat()
 	{
 		echo "powerd with two flat socket\n";
